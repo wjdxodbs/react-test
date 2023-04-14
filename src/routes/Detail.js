@@ -19,9 +19,10 @@ const Detail = () => {
   console.log(movies);
   return (
     <div>
-      <img src={movies.medium_cover_image} alt="title" />
+      {/* <img src={movies.medium_cover_image} alt="title" />
       <h2>{movies.title}</h2>
-      <p>{movies.description_intro}</p>
+      <p>{movies.description_intro}</p> */}
+      detail
     </div>
   );
 };
